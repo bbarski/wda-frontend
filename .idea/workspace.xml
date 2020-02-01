@@ -2,25 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4cadd9b-0f24-42c5-9792-5ee42fb05364" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/WeatherDataModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/babel.config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Server.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +69,15 @@
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/weather-front/build/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="main.b9bc9fbf.chunk.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/build/static/js/main.b9bc9fbf.chunk.js" working-dir="$PROJECT_DIR$/build/static/js">
+      <method v="2" />
+    </configuration>
+    <configuration name="service-worker.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/build/service-worker.js" working-dir="$PROJECT_DIR$/build">
+      <method v="2" />
+    </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -90,6 +88,13 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.service-worker.js" />
+        <item itemvalue="Node.js.main.b9bc9fbf.chunk.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -127,11 +132,33 @@
       <workItem from="1579947253223" duration="4996000" />
       <workItem from="1579954313889" duration="9933000" />
       <workItem from="1579973396788" duration="407000" />
+      <workItem from="1579973859096" duration="113000" />
+      <workItem from="1579974483485" duration="6000" />
+      <workItem from="1580236905502" duration="3426000" />
+      <workItem from="1580245249710" duration="1750000" />
+      <workItem from="1580323430199" duration="13964000" />
+      <workItem from="1580396419638" duration="3328000" />
+      <workItem from="1580408764427" duration="3812000" />
     </task>
+    <task id="LOCAL-00001" summary="proto to work with">
+      <created>1579973902605</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579973902605</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/Server.js" />
+        <option value="$PROJECT_DIR$/src/Server.js" />
+        <option value="$PROJECT_DIR$/src/Server.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -146,35 +173,43 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="proto to work with" />
+    <option name="LAST_COMMIT_MESSAGE" value="proto to work with" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="588" y="214" width="800" height="677" key="#ESLint" timestamp="1579543445173">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="588" y="214" width="800" height="677" key="#ESLint/67.27.1853.1053@67.27.1853.1053" timestamp="1579543445173" />
-    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579705834847">
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580396526023">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1579705834847" />
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1580396526023" />
     <state x="751" y="256" key="#xdebugger.evaluate" timestamp="1579717850017">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="751" y="256" key="#xdebugger.evaluate/67.27.1853.1053@67.27.1853.1053" timestamp="1579717850017" />
-    <state width="1830" height="388" key="GridCell.Tab.0.bottom" timestamp="1579973803360">
+    <state x="558" y="146" width="860" height="812" key="CommitChangelistDialog2" timestamp="1579973902143">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="388" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1579973803360" />
-    <state width="1830" height="388" key="GridCell.Tab.0.center" timestamp="1579973803359">
+    <state x="558" y="146" width="860" height="812" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1579973902143" />
+    <state width="1830" height="302" key="GridCell.Tab.0.bottom" timestamp="1580396624623">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="388" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1579973803359" />
-    <state width="1830" height="388" key="GridCell.Tab.0.left" timestamp="1579973803359">
+    <state width="1830" height="302" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1580396624623" />
+    <state width="1830" height="302" key="GridCell.Tab.0.center" timestamp="1580396624621">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="388" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1579973803359" />
-    <state width="1830" height="388" key="GridCell.Tab.0.right" timestamp="1579973803360">
+    <state width="1830" height="302" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1580396624621" />
+    <state width="1830" height="302" key="GridCell.Tab.0.left" timestamp="1580396624621">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="388" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1579973803360" />
+    <state width="1830" height="302" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1580396624621" />
+    <state width="1830" height="302" key="GridCell.Tab.0.right" timestamp="1580396624622">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="302" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1580396624622" />
     <state width="1830" height="158" key="GridCell.Tab.1.bottom" timestamp="1579725518096">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -223,6 +258,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1830" height="158" key="GridCell.Tab.3.right/67.27.1853.1053@67.27.1853.1053" timestamp="1579725518107" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1580327893096">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/67.27.1853.1053@67.27.1853.1053" timestamp="1580327893096" />
     <state x="167" y="125" width="1653" height="855" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1579961311556">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -231,6 +270,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="528" y="197" width="920" height="710" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1579940855239" />
+    <state x="657" y="253" key="run.anything.popup" timestamp="1580328623138">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="657" y="253" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1580328623138" />
     <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1579703788073">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

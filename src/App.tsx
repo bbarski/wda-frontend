@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import {WeatherDataModel} from "./model/WeatherDataModel";
 
 export class App extends React.Component<any, any> {
@@ -15,10 +14,12 @@ export class App extends React.Component<any, any> {
     displayData = (): any => {
 
         if (this.state.weatherData == null) {
-            return (<div className="dimmer ui active ">
+            return (
+                <div className="dimmer ui active ">
                         <div className="ui loader">
                         </div>
-                    </div>)
+                    </div>
+            )
         }
 
         return (
