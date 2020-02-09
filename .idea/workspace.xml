@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4cadd9b-0f24-42c5-9792-5ee42fb05364" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/config/configuration.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +137,12 @@
       <workItem from="1580323430199" duration="13964000" />
       <workItem from="1580396419638" duration="3328000" />
       <workItem from="1580408764427" duration="3812000" />
-      <workItem from="1580564680161" duration="327000" />
+      <workItem from="1580564680161" duration="523000" />
+      <workItem from="1580633456253" duration="7720000" />
+      <workItem from="1580748871013" duration="2424000" />
+      <workItem from="1580758338660" duration="7562000" />
+      <workItem from="1580837097644" duration="851000" />
+      <workItem from="1580838555911" duration="2844000" />
     </task>
     <task id="LOCAL-00001" summary="proto to work with">
       <created>1579973902605</created>
@@ -149,13 +158,22 @@
       <option name="project" value="LOCAL" />
       <updated>1580564837526</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="proto to work with">
+      <created>1580565120628</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580565120628</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
     <option name="exactExcludedFiles">
       <list>
+        <option value="$PROJECT_DIR$/src/Server.js" />
+        <option value="$PROJECT_DIR$/src/Server.js" />
         <option value="$PROJECT_DIR$/src/Server.js" />
         <option value="$PROJECT_DIR$/src/Server.js" />
         <option value="$PROJECT_DIR$/src/Server.js" />
@@ -185,18 +203,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="588" y="214" width="800" height="677" key="#ESLint/67.27.1853.1053@67.27.1853.1053" timestamp="1579543445173" />
-    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580396526023">
+    <state x="646" y="357" width="684" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580636433599">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1580396526023" />
+    <state x="646" y="357" width="684" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1580636433599" />
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580636754461">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1580636754461" />
     <state x="751" y="256" key="#xdebugger.evaluate" timestamp="1579717850017">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="751" y="256" key="#xdebugger.evaluate/67.27.1853.1053@67.27.1853.1053" timestamp="1579717850017" />
-    <state x="113" y="54" width="1740" height="942" key="CommitChangelistDialog2" timestamp="1580564836892">
+    <state x="113" y="54" width="1740" height="942" key="CommitChangelistDialog2" timestamp="1581242121352">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="113" y="54" width="1740" height="942" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1580564836892" />
+    <state x="113" y="54" width="1740" height="942" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1581242121352" />
     <state width="1830" height="302" key="GridCell.Tab.0.bottom" timestamp="1580396624623">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -265,6 +287,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="498" height="446" key="SwitcherDM/67.27.1853.1053@67.27.1853.1053" timestamp="1580327893096" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1580565161368">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1580565161368" />
     <state x="167" y="125" width="1653" height="855" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1579961311556">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

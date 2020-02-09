@@ -1,24 +1,28 @@
 import React from 'react';
 import {WeatherDataModel} from "./model/WeatherDataModel";
+import configuration from "./config/configuration.json";
 
 export class App extends React.Component<any, any> {
 
-    state: State = { weatherData: null };
-    apiUrl:string="http://51.38.131.247:8080/?";
-    defaultCity:string="midmar";
+    state: State = {weatherData: null};
+    apiUrl: string = `${configuration.backendUri}/?`;
+    defaultCity: string = configuration.defaultCity;
 
-    componentDidMount(){ this.gatherData(this.defaultCity); }
+    componentDidMount() {
+        this.gatherData(this.defaultCity);
+    }
 
-    render() { return this.displayData() }
+    render() {
+        return this.displayData()
+    }
 
     displayData = (): any => {
-
         if (this.state.weatherData == null) {
             return (
                 <div className="dimmer ui active ">
-                        <div className="ui loader">
-                        </div>
+                    <div className="ui loader">
                     </div>
+                </div>
             )
         }
 
@@ -28,7 +32,8 @@ export class App extends React.Component<any, any> {
                     <h1 className="ui center aligned header">{this.state.weatherData.stationName}</h1>
                     {
                         Object.values(this.state.weatherData).map((value: any, key: any) => {
-                            return <div className="ui segment center aligned compact blue">{value}</div>;})
+                            return <div className="ui segment center aligned compact blue">{value}</div>;
+                        })
                     }
                     <select id="pick-city" onChange={this.grabValue}>
                         <option value="select city">select city</option>
@@ -41,23 +46,28 @@ export class App extends React.Component<any, any> {
         )
     };
 
-    grabValue = (event: any): any =>{ this.gatherData(event.target.value);};
+    grabValue = (event: any): any => {
+        this.gatherData(event.target.value);
+    };
 
-    gatherData = (paramValue: any): any =>{
-
+    gatherData = (paramValue: any): any => {
         this.setState({weatherData: null});
 
         let url = new URL(this.apiUrl);
-        let params = {cityName:paramValue};
+        let params = {cityName: paramValue};
         url.search = new URLSearchParams("cityName=".concat(params.cityName.valueOf())).toString();
-
+        console.log(url.toString());
         fetch(url.toString())
             .then(res => (res.json()))
-            .then((data) => { this.setState({weatherData: data});
-                console.log("weatherDataState is: " + this.state.weatherData)})
+            .then((data) => {
+                this.setState({weatherData: data});
+                console.log("weatherDataState is: " + this.state.weatherData)
+            })
             .catch(console.log)
     };
 
 }
 
-    interface State { weatherData: null | WeatherDataModel }
+interface State {
+    weatherData: null | WeatherDataModel
+}
