@@ -1,14 +1,16 @@
 import React from 'react';
 import {WeatherDataModel} from "./model/WeatherDataModel";
 import configuration from "./config/configuration.json";
+import './app.css';
 
 export class App extends React.Component<any, any> {
 
-    state: State = {weatherData: null};
-    apiUrl: string = `${configuration.backendUri}/?`;
+    state: State = {weatherData: null, cities: null};
+    apiUrl: string = `${configuration.backendUri}`;
     defaultCity: string = configuration.defaultCity;
 
     componentDidMount() {
+        this.gatherCities();
         this.gatherData(this.defaultCity);
     }
 
@@ -31,20 +33,32 @@ export class App extends React.Component<any, any> {
                 <div className="ui segments center aligned">
                     <h1 className="ui center aligned header">{this.state.weatherData.stationName}</h1>
                     {
-                        Object.values(this.state.weatherData).map((value: any, key: any) => {
-                            return <div className="ui segment center aligned compact blue">{value}</div>;
+                        Object.keys(this.state.weatherData).map((key: string) => {
+                            return <div className="ui segment center aligned compact blue">
+                                {key} : {this.state.weatherData[key]}
+                            </div>;
                         })
                     }
                     <select id="pick-city" onChange={this.grabValue}>
                         <option value="select city">select city</option>
-                        <option value="midmar">midmar</option>
-                        <option value="gosport">gosport</option>
+                        {this.state.cities.map(cities => <option value={cities}>{cities}</option>)};
                     </select>
                 </div>
 
             </div>
         )
     };
+
+    gatherCities = () : any =>{
+        let url = new URL(this.apiUrl+"/weather/city");
+        fetch(url.toString())
+            .then(res => res.json())
+            .then((data) => {
+                this.setState({cities: data});
+                console.log("cities: " + this.state.cities)
+            })
+            .catch(console.log)
+        };
 
     grabValue = (event: any): any => {
         this.gatherData(event.target.value);
@@ -69,5 +83,6 @@ export class App extends React.Component<any, any> {
 }
 
 interface State {
-    weatherData: null | WeatherDataModel
+    weatherData: null | WeatherDataModel,
+    cities: []
 }

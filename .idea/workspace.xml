@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4cadd9b-0f24-42c5-9792-5ee42fb05364" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/config/configuration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -41,7 +43,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -56,11 +59,12 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -143,6 +147,11 @@
       <workItem from="1580758338660" duration="7562000" />
       <workItem from="1580837097644" duration="851000" />
       <workItem from="1580838555911" duration="2844000" />
+      <workItem from="1581242098395" duration="121000" />
+      <workItem from="1581242463439" duration="3186000" />
+      <workItem from="1581246006513" duration="1087000" />
+      <workItem from="1581249854801" duration="6482000" />
+      <workItem from="1581263419665" duration="1581000" />
     </task>
     <task id="LOCAL-00001" summary="proto to work with">
       <created>1579973902605</created>
@@ -165,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580565120628</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="proto to work with">
+      <created>1581242179586</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581242179586</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,10 +231,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="751" y="256" key="#xdebugger.evaluate/67.27.1853.1053@67.27.1853.1053" timestamp="1579717850017" />
-    <state x="113" y="54" width="1740" height="942" key="CommitChangelistDialog2" timestamp="1581242121352">
+    <state x="113" y="54" width="1740" height="942" key="CommitChangelistDialog2" timestamp="1581242179182">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="113" y="54" width="1740" height="942" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1581242121352" />
+    <state x="113" y="54" width="1740" height="942" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1581242179182" />
     <state width="1830" height="302" key="GridCell.Tab.0.bottom" timestamp="1580396624623">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -287,10 +303,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="498" height="446" key="SwitcherDM/67.27.1853.1053@67.27.1853.1053" timestamp="1580327893096" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1580565161368">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581242190832">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1580565161368" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1581242190832" />
     <state x="167" y="125" width="1653" height="855" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1579961311556">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -299,6 +315,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="528" y="197" width="920" height="710" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1579940855239" />
+    <state x="641" y="149" width="704" height="807" key="find.popup" timestamp="1581244966227">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="641" y="149" width="704" height="807" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1581244966227" />
     <state x="657" y="253" key="run.anything.popup" timestamp="1580328623138">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
