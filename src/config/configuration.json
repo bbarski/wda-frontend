@@ -1,4 +1,4 @@
 {
-  "backendUri": "http://51.38.131.247:8080",
+  "backendUri": "http://localhost:8080",
   "defaultCity": "midmar"
 }
