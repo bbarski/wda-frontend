@@ -31,6 +31,10 @@ export class App extends React.Component<any, any> {
         return (
             <div id="weather-data" className="ui raised very padded text container ui center aligned">
                 <div className="ui segments center aligned">
+                                    <select id="pick-city" onChange={this.grabValue}>
+                                        <option value="select city">select city</option>
+                                        {this.state.cities.map(cities => <option value={cities}>{cities}</option>)};
+                                    </select>
                     <h1 className="ui center aligned header">{this.state.weatherData.stationName}</h1>
                     {
                         Object.keys(this.state.weatherData).map((key: string) => {
@@ -39,10 +43,7 @@ export class App extends React.Component<any, any> {
                             </div>;
                         })
                     }
-                    <select id="pick-city" onChange={this.grabValue}>
-                        <option value="select city">select city</option>
-                        {this.state.cities.map(cities => <option value={cities}>{cities}</option>)};
-                    </select>
+
                 </div>
 
             </div>
