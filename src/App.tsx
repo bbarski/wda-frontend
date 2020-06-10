@@ -1,6 +1,6 @@
 import React from 'react';
 import {WeatherDataModel} from "./model/WeatherDataModel";
-import configuration from "./config/configuration.json";
+import configuration from "./config/localConfiguration.json";
 import './app.css';
 
 export class App extends React.Component<any, any> {
@@ -35,7 +35,6 @@ export class App extends React.Component<any, any> {
                                         <option value="select city">select city</option>
                                         {this.state.cities.map(cities => <option value={cities}>{cities}</option>)};
                                     </select>
-                    <h1 className="ui center aligned header">{this.state.weatherData.stationName}</h1>
                     {
                         Object.keys(this.state.weatherData).map((key: string) => {
                             return <div className="ui segment center aligned compact blue">

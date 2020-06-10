@@ -22,7 +22,8 @@
     "react-scripts": "^3.3.1",
     "semantic-ui-react": "^0.88.2",
     "typescript": "^3.7.5",
-    "yarn": "^1.21.1"
+    "yarn": "^1.21.1",
+    "pkg": "^4.4.8"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,7 +31,7 @@
     "test": "react-scripts test",
     "package": "rm -rf node_modules/ast-types-flow && pkg package.json --debug >> pack.log",
     "clean": "rm -rf build weather-front* pack.log",
-    "deploy": "scp weather-front-linux root@51.38.131.247:/root && ssh root@51.38.131.247 ./weather-front-linux&"
+    "deploy": "scp weather-front-linux ubuntu@51.77.59.144:/home/ubuntu && ssh ubuntu@51.77.59.144 ./weather-front-linux&"
   },
   "bin": "src/Server.js",
   "pkg": {
