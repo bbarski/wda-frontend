@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4cadd9b-0f24-42c5-9792-5ee42fb05364" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/hot.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/WeatherDataModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/WeatherDataModel.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +62,14 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/config" />
       <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/config" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager">
@@ -202,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591472752274</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="change map loop to template for weather data">
+      <created>1592353917372</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592353917372</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,120 +257,13 @@
     <MESSAGE value="proto to work with" />
     <MESSAGE value="add local configuration" />
     <MESSAGE value="move select with cities up" />
-    <option name="LAST_COMMIT_MESSAGE" value="move select with cities up" />
+    <MESSAGE value="change map loop to template for weather data" />
+    <option name="LAST_COMMIT_MESSAGE" value="change map loop to template for weather data" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="588" y="214" width="800" height="677" key="#ESLint" timestamp="1579543445173">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="158" y="0" width="724" height="768" key="CommitChangelistDialog2" timestamp="1592353916677">
+      <screen x="36" y="0" width="1330" height="768" />
     </state>
-    <state x="588" y="214" width="800" height="677" key="#ESLint/67.27.1853.1053@67.27.1853.1053" timestamp="1579543445173" />
-    <state x="646" y="357" width="684" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580636433599">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="646" y="357" width="684" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1580636433599" />
-    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580636754461">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1580636754461" />
-    <state x="751" y="256" key="#xdebugger.evaluate" timestamp="1579717850017">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="751" y="256" key="#xdebugger.evaluate/67.27.1853.1053@67.27.1853.1053" timestamp="1579717850017" />
-    <state x="113" y="54" width="1740" height="942" key="CommitChangelistDialog2" timestamp="1581242179182">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="113" y="54" width="1740" height="942" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1581242179182" />
-    <state width="1830" height="302" key="GridCell.Tab.0.bottom" timestamp="1580396624623">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1830" height="302" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1580396624623" />
-    <state width="1830" height="302" key="GridCell.Tab.0.center" timestamp="1580396624621">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1830" height="302" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1580396624621" />
-    <state width="1830" height="302" key="GridCell.Tab.0.left" timestamp="1580396624621">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1830" height="302" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1580396624621" />
-    <state width="1830" height="302" key="GridCell.Tab.0.right" timestamp="1580396624622">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1830" height="302" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1580396624622" />
-    <state width="1830" height="158" key="GridCell.Tab.1.bottom" timestamp="1579725518096">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1830" height="158" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1579725518096" />
-    <state width="1830" height="158" key="GridCell.Tab.1.center" timestamp="1579725518092">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1830" height="158" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1579725518092" />
-    <state width="1830" height="158" key="GridCell.Tab.1.left" timestamp="1579725518090">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1830" height="158" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1579725518090" />
-    <state width="1830" height="158" key="GridCell.Tab.1.right" timestamp="1579725518094">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1830" height="158" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1579725518094" />
-    <state width="1830" height="158" key="GridCell.Tab.2.bottom" timestamp="1579725518103">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1830" height="158" key="GridCell.Tab.2.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1579725518103" />
-    <state width="1830" height="158" key="GridCell.Tab.2.center" timestamp="1579725518099">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1830" height="158" key="GridCell.Tab.2.center/67.27.1853.1053@67.27.1853.1053" timestamp="1579725518099" />
-    <state width="1830" height="158" key="GridCell.Tab.2.left" timestamp="1579725518097">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1830" height="158" key="GridCell.Tab.2.left/67.27.1853.1053@67.27.1853.1053" timestamp="1579725518097" />
-    <state width="1830" height="158" key="GridCell.Tab.2.right" timestamp="1579725518101">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1830" height="158" key="GridCell.Tab.2.right/67.27.1853.1053@67.27.1853.1053" timestamp="1579725518101" />
-    <state width="1830" height="158" key="GridCell.Tab.3.bottom" timestamp="1579725518110">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1830" height="158" key="GridCell.Tab.3.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1579725518109" />
-    <state width="1830" height="158" key="GridCell.Tab.3.center" timestamp="1579725518106">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1830" height="158" key="GridCell.Tab.3.center/67.27.1853.1053@67.27.1853.1053" timestamp="1579725518106" />
-    <state width="1830" height="158" key="GridCell.Tab.3.left" timestamp="1579725518104">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1830" height="158" key="GridCell.Tab.3.left/67.27.1853.1053@67.27.1853.1053" timestamp="1579725518104" />
-    <state width="1830" height="158" key="GridCell.Tab.3.right" timestamp="1579725518107">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1830" height="158" key="GridCell.Tab.3.right/67.27.1853.1053@67.27.1853.1053" timestamp="1579725518107" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1580327893096">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/67.27.1853.1053@67.27.1853.1053" timestamp="1580327893096" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581242190832">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1581242190832" />
-    <state x="167" y="125" width="1653" height="855" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1579961311556">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="167" y="125" width="1653" height="855" key="com.intellij.dvcs.ui.CompareBranchesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1579961311556" />
-    <state x="528" y="197" width="920" height="710" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579940855240">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="528" y="197" width="920" height="710" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1579940855239" />
-    <state x="641" y="149" width="704" height="807" key="find.popup" timestamp="1581244966227">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="641" y="149" width="704" height="807" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1581244966227" />
-    <state x="657" y="253" key="run.anything.popup" timestamp="1580328623138">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="657" y="253" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1580328623138" />
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1579703788073">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1579703788073" />
+    <state x="158" y="0" width="724" height="768" key="CommitChangelistDialog2/36.0.1330.768@36.0.1330.768" timestamp="1592353916677" />
   </component>
 </project>

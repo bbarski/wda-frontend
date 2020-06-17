@@ -2,6 +2,7 @@ import React from 'react';
 import {WeatherDataModel} from "./model/WeatherDataModel";
 import configuration from "./config/localConfiguration.json";
 import './app.css';
+import hot from "./images/hot.svg"
 
 export class App extends React.Component<any, any> {
 
