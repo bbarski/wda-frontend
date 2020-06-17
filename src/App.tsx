@@ -35,13 +35,19 @@ export class App extends React.Component<any, any> {
                                         <option value="select city">select city</option>
                                         {this.state.cities.map(cities => <option value={cities}>{cities}</option>)};
                                     </select>
-                    {
-                        Object.keys(this.state.weatherData).map((key: string) => {
-                            return <div className="ui segment center aligned compact blue">
-                                {key} : {this.state.weatherData[key]}
-                            </div>;
-                        })
-                    }
+
+                            <div className="ui segment center aligned compact green">
+                                {'Outside Temp'} : {this.state.weatherData.clientRawModelOutsideTempCelsius} &#8451;
+                                <br/>
+                                {'Pressure'} : {this.state.weatherData.clientRawModelBarometerHPa} {'hPa'}
+                                <br/>
+                                {'Weather Desc'} : {this.state.weatherData.clientRawModelWeatherDesc}
+                                <br/>
+                                {'Humidity'} : {this.state.weatherData.clientRawModelOutsideHumidityPercent} &#37;
+                                <br/>
+                                {'Wind Avg Speed'} : {this.state.weatherData.clientRawModelAvgSpeedKnots} {'knots'}
+                            </div>
+
 
                 </div>
 

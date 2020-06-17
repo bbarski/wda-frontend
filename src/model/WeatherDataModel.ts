@@ -2,18 +2,18 @@ export class WeatherDataModel {
 
     constructor() {}
 
-    avgSpeedKnots: string;
-    barometerHPa: string;
+    clientRawModelAvgSpeedKnots: string;
+    clientRawModelBarometerHPa: string;
     dateLabel: string;
     dayTime: string;
     hourTime: string;
     minuteTime: string;
     monthTime: string;
-    outsideHumidityPercent: string;
-    outsideTempCelsius: string;
+    clientRawModelOutsideHumidityPercent: string;
+    clientRawModelOutsideTempCelsius: string;
     secondsTime: string;
     stationName: string;
-    weatherDesc: string;
+    clientRawModelWeatherDesc: string;
     windDirCompass: string;
 
 }
