@@ -2,7 +2,7 @@ import React from 'react';
 import {WeatherDataModel} from "./model/WeatherDataModel";
 import configuration from "./config/localConfiguration.json";
 import './app.css';
-import hot from "./images/hot.svg"
+import bg from "./images/bg.jpg"
 
 export class App extends React.Component<any, any> {
 
@@ -22,6 +22,7 @@ export class App extends React.Component<any, any> {
     displayData = (): any => {
         if (this.state.weatherData == null) {
             return (
+
                 <div className="dimmer ui active ">
                     <div className="ui loader">
                     </div>
@@ -32,11 +33,13 @@ export class App extends React.Component<any, any> {
         return (
             <div id="weather-data" className="ui raised very padded text container ui center aligned">
                 <div className="ui segments center aligned">
+
+
                                     <select id="pick-city" onChange={this.grabValue}>
                                         <option value="select city">select city</option>
                                         {this.state.cities.map(cities => <option value={cities}>{cities}</option>)};
                                     </select>
-
+                            <br/>
                             <div className="ui segment center aligned compact green">
                                 {'Outside Temp'} : {this.state.weatherData.clientRawModelOutsideTempCelsius} &#8451;
                                 <br/>
@@ -50,9 +53,10 @@ export class App extends React.Component<any, any> {
                             </div>
 
 
-                </div>
 
-            </div>
+                 </div>
+
+             </div>
         )
     };
 

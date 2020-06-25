@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e4cadd9b-0f24-42c5-9792-5ee42fb05364" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/hot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/bg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/hot.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,23 +48,18 @@
       </map>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="51" />
-    <option name="y" value="55" />
-    <option name="width" value="749" />
-    <option name="height" value="541" />
-  </component>
   <component name="ProjectId" id="1WbhlNqqVTsU9v4WZ2lCc9hyRKr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591734499824" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
@@ -59,20 +75,22 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="ts.external.directory.path" value="C:\Program Files (x86)\JetBrains\WebStorm 2020.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\wda-frontend\src\images" />
+      <recent name="$PROJECT_DIR$/src/images" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/config" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/images" />
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.Debug Application">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -95,18 +113,6 @@
       <envs />
       <method v="2" />
     </configuration>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -150,6 +156,8 @@
       <workItem from="1581246006513" duration="1087000" />
       <workItem from="1581249854801" duration="6482000" />
       <workItem from="1581263419665" duration="1581000" />
+      <workItem from="1593121456570" duration="725000" />
+      <workItem from="1593122399131" duration="4426000" />
     </task>
     <task id="LOCAL-00001" summary="proto to work with">
       <created>1579973902605</created>
@@ -211,17 +219,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/src/Server.js" />
-        <option value="$PROJECT_DIR$/src/Server.js" />
-        <option value="$PROJECT_DIR$/src/Server.js" />
-        <option value="$PROJECT_DIR$/src/Server.js" />
-        <option value="$PROJECT_DIR$/src/Server.js" />
-        <option value="$PROJECT_DIR$/src/Server.js" />
-      </list>
-    </option>
+    <option name="version" value="2" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.tsx" />
@@ -231,9 +229,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -252,6 +248,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="proto to work with" />
@@ -261,9 +258,37 @@
     <option name="LAST_COMMIT_MESSAGE" value="change map loop to template for weather data" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="551" y="256" key="#ESLint" timestamp="1593121601580">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="551" y="256" key="#ESLint/0.0.1366.728@0.0.1366.728" timestamp="1593121601580" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593123366525">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1593123366525" />
     <state x="158" y="0" width="724" height="768" key="CommitChangelistDialog2" timestamp="1592353916677">
       <screen x="36" y="0" width="1330" height="768" />
     </state>
     <state x="158" y="0" width="724" height="768" key="CommitChangelistDialog2/36.0.1330.768@36.0.1330.768" timestamp="1592353916677" />
+    <state width="1308" height="163" key="GridCell.Tab.0.bottom" timestamp="1593122830425">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1308" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593122830425" />
+    <state width="1308" height="163" key="GridCell.Tab.0.center" timestamp="1593122830424">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1308" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593122830424" />
+    <state width="1308" height="163" key="GridCell.Tab.0.left" timestamp="1593122830424">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1308" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593122830424" />
+    <state width="1308" height="163" key="GridCell.Tab.0.right" timestamp="1593122830425">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1308" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593122830425" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1593122192320">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593122192320" />
   </component>
 </project>
