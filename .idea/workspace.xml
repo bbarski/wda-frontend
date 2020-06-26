@@ -19,13 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4cadd9b-0f24-42c5-9792-5ee42fb05364" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/bg.jpg" afterDir="false" />
+    <list default="true" id="e4cadd9b-0f24-42c5-9792-5ee42fb05364" name="Default Changelist" comment="minor fix">
+      <change afterPath="$PROJECT_DIR$/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/spiner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/hot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/WeatherDataModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/WeatherDataModel.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +41,8 @@
       <list>
         <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -56,13 +62,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591734499824" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -76,18 +83,19 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
-    <property name="ts.external.directory.path" value="C:\Program Files (x86)\JetBrains\WebStorm 2020.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="C:\Users\User\WebstormProjects\wda-frontend\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\wda-frontend" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/config" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\WebstormProjects\wda-frontend\src\images" />
       <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/src/config" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.Debug Application">
@@ -157,7 +165,9 @@
       <workItem from="1581249854801" duration="6482000" />
       <workItem from="1581263419665" duration="1581000" />
       <workItem from="1593121456570" duration="725000" />
-      <workItem from="1593122399131" duration="4426000" />
+      <workItem from="1593122399131" duration="4490000" />
+      <workItem from="1593166074742" duration="10038000" />
+      <workItem from="1593198491980" duration="5463000" />
     </task>
     <task id="LOCAL-00001" summary="proto to work with">
       <created>1579973902605</created>
@@ -215,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592353917372</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="minor fix">
+      <created>1593127032458</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593127032458</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +272,8 @@
     <MESSAGE value="add local configuration" />
     <MESSAGE value="move select with cities up" />
     <MESSAGE value="change map loop to template for weather data" />
-    <option name="LAST_COMMIT_MESSAGE" value="change map loop to template for weather data" />
+    <MESSAGE value="minor fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="551" y="256" key="#ESLint" timestamp="1593121601580">
@@ -270,22 +288,22 @@
       <screen x="36" y="0" width="1330" height="768" />
     </state>
     <state x="158" y="0" width="724" height="768" key="CommitChangelistDialog2/36.0.1330.768@36.0.1330.768" timestamp="1592353916677" />
-    <state width="1308" height="163" key="GridCell.Tab.0.bottom" timestamp="1593122830425">
+    <state width="1345" height="211" key="GridCell.Tab.0.bottom" timestamp="1593177909576">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593122830425" />
-    <state width="1308" height="163" key="GridCell.Tab.0.center" timestamp="1593122830424">
+    <state width="1345" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593177909576" />
+    <state width="1345" height="211" key="GridCell.Tab.0.center" timestamp="1593177909575">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593122830424" />
-    <state width="1308" height="163" key="GridCell.Tab.0.left" timestamp="1593122830424">
+    <state width="1345" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593177909575" />
+    <state width="1345" height="211" key="GridCell.Tab.0.left" timestamp="1593177909574">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593122830424" />
-    <state width="1308" height="163" key="GridCell.Tab.0.right" timestamp="1593122830425">
+    <state width="1345" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593177909574" />
+    <state width="1345" height="211" key="GridCell.Tab.0.right" timestamp="1593177909575">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593122830425" />
+    <state width="1345" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593177909575" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1593122192320">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
