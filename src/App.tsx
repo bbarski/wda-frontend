@@ -48,6 +48,9 @@ export class App extends React.Component<any, any> {
                                 {'Place'} : {this.state.weatherData.geoCodeModelsPlace}<br/>
                             </div>
                             <br/>
+                    <div className="image">
+                        <img src="https://openweathermap.org/themes/openweathermap/assets/img/new-history-forecast-bulk.png" alt="bg"/>
+                    </div>
 
                 </div>
 
