@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4cadd9b-0f24-42c5-9792-5ee42fb05364" name="Default Changelist" comment="change to semanticUI cards&#10;add place on front from json">
+    <list default="true" id="e4cadd9b-0f24-42c5-9792-5ee42fb05364" name="Default Changelist" comment="add image below card">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
@@ -160,7 +160,7 @@
       <workItem from="1593122399131" duration="4490000" />
       <workItem from="1593166074742" duration="10038000" />
       <workItem from="1593198491980" duration="5790000" />
-      <workItem from="1593293316641" duration="1099000" />
+      <workItem from="1593293316641" duration="1818000" />
     </task>
     <task id="LOCAL-00001" summary="proto to work with">
       <created>1579973902605</created>
@@ -232,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593204605139</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add image below card">
+      <created>1593294761003</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1593294761003</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +281,8 @@
     <MESSAGE value="change map loop to template for weather data" />
     <MESSAGE value="minor fix" />
     <MESSAGE value="change to semanticUI cards&#10;add place on front from json" />
-    <option name="LAST_COMMIT_MESSAGE" value="change to semanticUI cards&#10;add place on front from json" />
+    <MESSAGE value="add image below card" />
+    <option name="LAST_COMMIT_MESSAGE" value="add image below card" />
   </component>
   <component name="WindowStateProjectService">
     <state x="551" y="256" key="#ESLint" timestamp="1593121601580">
