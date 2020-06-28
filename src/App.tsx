@@ -1,6 +1,6 @@
 import React from 'react';
 import {WeatherDataModel} from "./model/WeatherDataModel";
-import configuration from "./config/configuration.json";
+import configuration from "./config/localConfiguration.json";
 import './app.css';
 
 
@@ -40,7 +40,7 @@ export class App extends React.Component<any, any> {
                                     </select>
                             <br/>
                             <div className="ui centered card center aligned compact green">
-                                //TODO text wrapping (Weather Desc)
+                                {/*//TODO text wrapping (Weather Desc)*/}
                                 {'Outside Temp'} : {this.state.weatherData.clientRawModelOutsideTempCelsius} &#8451;<br/>
                                 {'Pressure'} : {this.state.weatherData.clientRawModelBarometerHPa} {'hPa'}<br/>
                                 {'Weather Desc'} : {this.state.weatherData.clientRawModelWeatherDesc}<br/>
