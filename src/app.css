@@ -1,5 +1,7 @@
 body {
-    background-color: grey;
+    background-color: deepskyblue;
+    background-image: url("https://wallpaperaccess.com/full/398881.jpg");
+
 }
 #weather-data {
     margin-top: 4em;

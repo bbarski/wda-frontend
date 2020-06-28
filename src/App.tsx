@@ -46,7 +46,8 @@ export class App extends React.Component<any, any> {
                                 {'Weather Desc'} : {this.state.weatherData.clientRawModelWeatherDesc}<br/>
                                 {'Humidity'} : {this.state.weatherData.clientRawModelOutsideHumidityPercent} &#37;<br/>
                                 {'Wind Avg Speed'} : {this.state.weatherData.clientRawModelAvgSpeedKnots} {'knots'}<br/>
-                                {'Place'} : {this.state.weatherData.geoCodeModelsPlace}<br/>
+                                {'Place'} : {this.state.weatherData.geoCodeModelsPlace} {' - '}<br/>
+                                            {this.state.weatherData.geoCodeModelsISO_3166_1_alpha_3}
                             </div>
                             <br/>
                     <div className="image">

@@ -8,5 +8,5 @@ export class WeatherDataModel {
     clientRawModelOutsideTempCelsius: string;
     clientRawModelWeatherDesc: string;
     geoCodeModelsPlace: string;
-    clientRawModelLongitude:string;
+    geoCodeModelsISO_3166_1_alpha_3: string;
 }
