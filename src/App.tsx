@@ -1,6 +1,6 @@
 import React from 'react';
 import {WeatherDataModel} from "./model/WeatherDataModel";
-import configuration from "./config/localConfiguration.json";
+import configuration from "./config/configuration.json";
 import './app.css';
 
 
@@ -51,7 +51,10 @@ export class App extends React.Component<any, any> {
                             </div>
                             <br/>
                     <div className="image">
-                        <img src="https://openweathermap.org/themes/openweathermap/assets/img/new-history-forecast-bulk.png" alt="bg"/>
+                        <a href='https://bit.ly/clîck_me' target='_blank' rel="noopener noreferrer">
+    <img id="kofi_img" height='36' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' alt='Buy Me a Coffee at ko-fi.com' />
+                        </a>
+                        {/*<img src="https://openweathermap.org/themes/openweathermap/assets/img/new-history-forecast-bulk.png" alt="bg"/>*/}
                     </div>
 
                 </div>

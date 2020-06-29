@@ -8,3 +8,10 @@ body {
     height: 50%;
     width: 50%;
 }
+#kofi_img {
+    border:0px;
+    height:36px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
