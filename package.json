@@ -32,8 +32,8 @@
     "build": "tsc src/Server.ts && npm install && react-scripts build",
     "test": "react-scripts test",
     "package": "rm -rf node_modules/ast-types-flow && pkg package.json --debug >> pack.log",
-    "clean": "rm -rf build weather-front* pack.log",
-    "deploy": "scp weather-front-linux ubuntu@51.77.59.144:/home/ubuntu && ssh ubuntu@51.77.59.144 ./weather-front-linux&"
+    "clean": "rm -rf build weather-front* pack.log"
+
   },
   "bin": "src/Server.js",
   "pkg": {
