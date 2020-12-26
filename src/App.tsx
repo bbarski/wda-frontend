@@ -62,16 +62,7 @@ export class App extends React.Component<any, any> {
                                 {'Place'} : {this.state.weatherData.geoCodeModelsPlace} {' - '}
                                             {this.state.weatherData.geoCodeModelsISO_3166_1_alpha_3}<br/>
                             </div>
-                            <br/>
-                    <div className="image">
-                        <a href='https://bit.ly/clîck_me' target='_blank' rel="noopener noreferrer">
-    <img id="kofi_img" height='36' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' alt='Buy Me a Coffee at ko-fi.com' />
-                        </a>
-                        {/*<img src="https://openweathermap.org/themes/openweathermap/assets/img/new-history-forecast-bulk.png" alt="bg"/>*/}
-                    </div>
-
                 </div>
-
              </div>
         )
     };
