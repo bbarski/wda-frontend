@@ -1,12 +1,12 @@
 import React from 'react';
 import {WeatherDataModel} from "./model/WeatherDataModel";
-import configuration from "./config/configuration.json";
+import configuration from "./config/localConfiguration.json";
 import './app.css';
 
 
 export class App extends React.Component<any, any> {
 
-    state: State = {weatherData: null, cities: null};
+    state: State = {weatherData: null, cities: null, errorMessage: null};
     apiUrl: string = `${configuration.backendUri}`;
     defaultCity: string = configuration.defaultCity;
 
@@ -20,7 +20,19 @@ export class App extends React.Component<any, any> {
     }
 
     displayData = (): any => {
-        if (this.state.weatherData == null) {
+
+        if (this.state.weatherData == null && this.state.errorMessage != null){
+            return(
+                <div className="ui centered center aligned negative message">
+                    <div className="header">There was an error!
+                    </div>
+                    <p>{this.state.errorMessage}</p>
+                    <button className="ui button" onClick={this.refreshPage}>Click Here to reload</button>
+                </div>
+                
+            )
+        }
+        else if (this.state.weatherData == null) {
             return (
                 <div className="dimmer ui active ">
                     <div className="ui loader">
@@ -28,6 +40,7 @@ export class App extends React.Component<any, any> {
                 </div>
             )
         }
+
 
         return (
 
@@ -63,6 +76,9 @@ export class App extends React.Component<any, any> {
         )
     };
 
+    refreshPage = ()=>{
+        window.location.reload();  }
+
     gatherCities = () : any =>{
         let url = new URL(this.apiUrl+"/weather/city");
         fetch(url.toString())
@@ -86,17 +102,25 @@ export class App extends React.Component<any, any> {
         url.search = new URLSearchParams("cityName=".concat(params.cityName.valueOf())).toString();
         console.log(url.toString());
         fetch(url.toString())
-            .then(res => (res.json()))
-            .then((data) => {
-                this.setState({weatherData: data});
-                console.log("weatherDataState is: " + this.state.weatherData)
+            .then(async response => {
+                const data = await response.json();
+                if (!response.ok) {
+
+                    const error = (data && data.message) || response.statusText;
+                    return Promise.reject(error);
+                }
+                this.setState({ weatherData: data })
             })
-            .catch(console.log)
+            .catch(error => {
+                this.setState({ errorMessage: error.toString() });
+                console.error('There was an error!', error);
+            });
     };
 
 }
 
 interface State {
     weatherData: null | WeatherDataModel,
-    cities: []
+    cities: [],
+    errorMessage: null | any
 }
